@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.page{
+    height:100vh;
+}
+
+#main-container #home-page{
+   
+    /* background-position:center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+}
+#nav-container{
+    display:flex;
+    backgrond: yellow;
+    background-color:grey;
+    
+}
+ 
+#logo{
+    flex:1;
+    background-image: url('images/logo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+}
+#menu-bar{
+    margin-right:50px;
+    height: auto 0;
+}
+#menu-bar ul{
+    display:flex;
+    list-style: none;
+ 
+    height:100%;
+    align-items:center;
+}
+#menu-bar ul li{
+    display:flex;
+    
+    border-radius:10px;
+    padding:10px;
+    margin-left:8px;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+#menu-bar ul li a{
+   text-decoration:none;
+   color:white;
+   
+   
+   
+   
+   
+   
+}
+#menu-bar ul li a:hover{
+    font-style: italic;
+
+    cursor:pointer;
+    border-bottom: 2px solid rgb(14, 207, 56);
+    
+    
+}
+#title-container{
+    background-image: url('images/nature.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+    flex:1;
+    
+    display:flex;
+    flex-direction: column;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 30px;
+
+
+}
+#title-container .title{
+    font-size: 40pt;
+    background: brown;
+    color: white;
+    margin: 2px 2px;
+    
+}
+
+#title-container .title-content{
+    font-size: 15pt;
+    background: brown;
+    color: white;
+    margin: 2px 200px;
+    
+}
+#title-container .title:hover{
+    color: rgb(15, 207, 207);
+}
+#title-container .title-content:hover{
+    color: rgb(15, 207, 207);
+    
+}
+/* Adding Css to the read more button. */
+#title-container .read-more{
+    border: 5px;
+    background: rgb(80, 14, 156);
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+    padding: 3px 3px;
+    margin: 5px 5px;
+    border-radius: 6px;
+}
+#title-container .read-more:hover{
+    background: rgb(170, 17, 63);
+}
+/* Adding Css to all the title *(home,about us, .....) */
+.title{
+    color: skyblue;
+    text-align: center;
+    font-size: 35pt;
+}
+/* adding Css to About page contents. */
+#about-page .about-contents{
+    display:flex;
+   
+    margin: 100px 200px;
+
+
+}
+.about-contents .about-container{
+    background-color: brown;
+    display:flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items:center;
+    height: 70vh;
+    
+}
+.about-container .about-image{
+    background-image: url("images/robot.jpg");
+    height: 20vh;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.about-container .developer-name{
+    font-family:'Dancing Script', cursive;
+}
+#tour-page .tour-container{
+    background: brown;
+    
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: yellow;
+}
+#tour-page .tour-container .tour-place{
+    margin: 10px;
+}
+#tour-page .tour-container .image-container .image{
+    
+    width: 400px;
+    height: 20vh;
+
+    
+}
+
+#tour-page .tour-container .tour-name, .price{
+    text-align: center;
+
+    
+}
+#tour-page .tour-container .tour-name{
+    background: red;
+    text-align: center;
+}
+
+#contact-page{
+    position: relative;
+}
+#contact-page .contacts-form{
+    text-align: center;
+    margin-top: 10px;
+    background: skyblue;
+    height: 70vh;
+    
+}
+
+#contact-page .contacts-form #comments{
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+}
+
+#contact-page .footer-container{
+    display:flex;
+    background: brown;
+    justify-content: space-around;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    
+}
