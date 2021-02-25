@@ -1,2 +1,2 @@
-# Practice_Website
-A basic website to practice html, CSS and JAVASCRIPT
+# Tour_Website
+A tour website built using HTML,CSS AND JAVASCRIPT
